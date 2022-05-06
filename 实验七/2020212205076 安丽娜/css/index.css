@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body { padding: 20px; width: 685px; font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif; }
+.red { color: red; }
+.black { color: black; }
+.bold { font-weight: bold; }
+.blue { color: rgb(51, 111, 169); }
+.mgl5 { margin-left: 5px; }
+.underline { text-decoration: underline; }
+.ui-grid-row { margin-right: 0; }
+header .m-tip { margin-bottom: 0; }
+header .m-tab span { background: rgb(0, 140, 201); color: #fff; padding: 4px 10px 0; border-radius: 3px 3px 0 0; display: block; text-align: center; }
+header .m-tip { margin-bottom: -1px; }
+header .m-tl .m-tip span { background: #ff6600; color: #fff; padding: 2px 2px; font-size: 15px; border-radius: 3px; text-align: center; position: relative; bottom: 2px; }
+header .m-tl { border-bottom: 5px solid rgb(0, 140, 201); }
+header .m-tl .ui-grid-2, .m-tl .ui-grid-14 { margin-bottom: -1px; padding-bottom: 0; }
+header .m-tl .m-fun { border-radius: 2px; border: 1.5px solid #ccc; background: rgb(244, 244, 244); }
+header .m-tl .m-fun img { margin: 0px 1px 0 5px; position: relative; top: 3px; }
+header .m-tl .m-fun span { font-weight: bold; color: rgb(27, 62, 200); }
+header .m-bd { border: 1.5px solid #ccc; border-top: 0; background: rgb(247, 247, 247); }
+header .m-bd .m-time { }
+header .m-bd .m-time div { margin-bottom: 0; }
+header .m-bd .m-time .m-t { margin-left: 5px; font-size: 16px; font-weight: bold; margin-bottom: 0; }
+header .m-bd .m-time .m-l { line-height: 24px; }
+header .m-bd .m-time .m-thin { font-size: 12px; position: relative; right: 5px; }
+header .m-bd .m-detail div { margin-bottom: 5px; }
+header .m-bd .m-detail { }
+header .m-tail { border: 1.5px solid #ccc; border-top: 0; background: rgb(255, 251, 222); margin-bottom: 5px; color: #059; display: flex; justify-content: center; align-items: center; }
+header .m-tail div { margin: 1px; }
+header .m-tail span { margin-right: 1.5px; }
+header .m-tail img { position: relative; top: 2.5px; }
+body .m-head { color: rgb(82, 123, 146); }
+body .m-head div, .m-location div, .m-way div { margin: 1px; }
+body .m-head div { background: rgb(201, 221, 233); display: flex; justify-content: center; align-items: center; }
+body .m-head .ui-grid-10 { width: 375px; }
+body .m-head .ui-grid-2 { width: 73px; }
+body .m-head .m-resize { width: 80px; }
+body .m-location { border: 1.5px solid #ccc; background: rgb(242, 242, 242); }
+body .m-h div { height: 35px; }
+body .m-location .m-detail { display: flex; flex-wrap: wrap; justify-content: flex-end; align-content: space-between; }
+body .m-location .m-detail span { margin: 0 3px; text-decoration: underline; color: rgb(0, 40, 189); font-weight: bold; }
+body .m-location .m-place { position: relative; font-size: 18px; font-weight: bold; }
+body .m-location .m-place .m-snow { position: relative; right: 5px; }
+body .m-location .m-place .m-sun { position: absolute; left: -25px; }
+body .m-way .m-time { position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+body .m-way .m-time .m-img { position: absolute; right: -8px; }
+body .m-c { display: flex; justify-content: center; align-items: center; }
+body .m-cl { display: flex; align-items: center; }
+body .m-way .m-l { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+body .m-way div { height: 45px; }
+body .m-way .ui-grid-2 { border-left: 1.5px solid #ccc; }
+body .m-way span { display: block; }
+body .m-way .m-size { font-size: 14px; }
+body .m-way .m-move { position: relative; top: 5px; }

@@ -1,0 +1,73 @@
+.g-index {
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	height: 600px;
+	background: rgb(205, 211, 245);
+}
+
+.g-index .g-head {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	width: 760px;
+	height: 120px;
+	background: rgb(153, 189, 144);
+}
+
+.g-index .g-head .g-left, .g-right {
+	display: flex;
+}
+
+.g-index .g-head .g-main {
+	margin: 20px;
+	width: 80px;
+	height: 80px;
+	background: rgb(205, 211, 245);
+}
+
+.g-index .g-body {
+	display: flex;
+	margin: 0 20px 20px 20px;
+	width: 760px;
+	height: 420px;
+	background: rgb(153, 189, 144);
+}
+
+.g-index .g-body .g-left, .g-right {
+	display: flex;
+	flex-direction: column;
+}
+
+.g-index .g-body .g-left .g-img {
+	margin: 20px;
+	width: 200px;
+	height: 300px;
+	background: rgb(205, 211, 245);
+}
+
+.g-index .g-body .g-left .bottom {
+	display: flex;
+}
+
+.g-index .g-body .g-left .g-detial {
+	margin: 0 20px 20px 20px;
+	width: 50px;
+	height: 50px;
+	background: rgb(205, 211, 245);
+}
+
+.g-index .g-body .g-left .g-detial+.g-detial {
+	margin-left: 5px;
+}
+
+.g-index .g-body .g-right {
+	margin: 20px 20px 0 20px;
+}
+
+.g-index .g-body .g-right .g-content {
+	margin-bottom: 15px;
+	width: 480px;
+	height: 40px;
+	background: rgb(205, 211, 245);
+}

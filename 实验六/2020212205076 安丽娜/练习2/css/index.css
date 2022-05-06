@@ -1,0 +1,78 @@
+.g-index {
+	display: flex;
+}
+
+.red {
+	color: red;
+}
+
+.g-box {
+	display: flex;
+	flex-direction: column-reverse;
+	width: 390px;
+	height: 370px;
+	background: rgb(255, 255, 235);
+	border: 1px solid #000;
+}
+
+.g-box .g-info {
+	height: 116px;
+	width: 390px;
+	font-weight: bolder;
+	background: rgb(255, 230, 244);
+	border-top: 1px solid #000;
+}
+
+.g-box .g-info .g-title, .g-detail, .g-price {
+	display: flex;
+	margin: 10px;
+	width: 370px;
+	height: 20px;
+	background: white;
+	border: 1px solid #000;
+}
+
+.g-box .g-info span {
+	position: relative;
+	left: 8px;
+	font-size: 12px;
+	line-height: 20px;
+	transform: scale(0.9);
+}
+
+.g-box .g-info .g-price {
+	justify-content: space-between;
+	align-items: center;
+	height: 30px;
+}
+
+.g-box .g-info .g-price .g-left, .g-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.g-box .g-info .g-price .g-left {
+	align-items: flex-end;
+}
+
+.g-box .g-info .g-price .g-real {
+	position: relative;
+	left: 5px;
+	font-size: 16px;
+}
+
+.g-box .g-info .g-price .g-original {
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: line-through;
+	transform: scale(0.75);
+	margin-left: 5px;
+}
+
+.g-box .g-info .g-price .g-right {
+	font-size: 12px;
+	font-weight: normal;
+	transform: scale(0.8);
+	margin: 8px 6px 0 0;
+}
